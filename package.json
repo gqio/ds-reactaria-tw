@@ -1,0 +1,17 @@
+{
+  "name": "@go-aos/ds-reactaria-tw",
+  "version": "0.0.0",
+  "description": "",
+  "license": "ISC",
+  "type": "module",
+  "homepage": "{{ homepage }}",
+  "scripts": {
+    "serve": "dsd-cli serve EC7fTmds1DS8GBMeQRMa --open"
+  },
+  "devDependencies": {
+    "dsd-cli": "latest"
+  },
+  "dependencies": {
+    "@divriots/dockit-react": "0.0.23"
+  }
+}

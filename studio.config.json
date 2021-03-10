@@ -1,0 +1,10 @@
+{
+  "packages": {
+    "dir": "packages/",
+    "menu": [
+      "welcome",
+      ["Tokens", ["colors", "spacing", "radii"]],
+      ["Components", ["button"]]
+    ]
+  }
+}

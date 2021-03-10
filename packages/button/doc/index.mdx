@@ -1,0 +1,52 @@
+---
+{
+  "title": "test"
+}
+---
+
+export const data = {};
+import { mdx } from "@mdx-js/react";
+import { Button } from "../dist/index";
+import "./index.js";
+
+import Layout from "../../layout/dist/index";
+export default Layout;
+
+# Button
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+# Primary
+
+<Playground
+  code={`
+  <my-button>Toto</my-button>`}
+></Playground>
+
+<Playground
+  scope={{ Button }}
+  code={`
+  <Button>Primary</Button>`}
+></Playground>
+
+# Secondary
+
+Secondary button for
+
+<Playground
+  scope={{ Button }}
+  code={`
+<Button variant="secondary">Secondary</Button>`}
+></Playground>
+
+<Props of={Button} />
+
+<!-- <link
+  rel="stylesheet"
+  href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css"
+/> -->
