@@ -7,7 +7,7 @@ export default {
   },
 };
 
-export const Primary = () => (
+export const Primar = () => (
   <Button onPress={() => alert("Button pressed!")}>Primary</Button>
 );
 
