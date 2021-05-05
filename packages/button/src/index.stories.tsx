@@ -8,7 +8,7 @@ export default {
 };
 
 export const Primary = () => (
-  <Button onPress={() => alert("Button pressed!")}>Primary</Button>
+  <Button onPress={() => alert("Button pressed!")}>Secondary</Button>
 );
 
 export const Secondary = () => (
